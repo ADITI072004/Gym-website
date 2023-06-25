@@ -1,0 +1,127 @@
+    body {
+        font-family: 'Courgette', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url(gymmm.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 650px;
+    }
+
+    .left {
+
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 60px;
+        margin-left: 0%;
+    }
+
+    .left img {
+        width: 90px;
+        height: 90px;
+        margin-left: 17px;
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 20px;
+        line-height: 8px;
+    }
+
+    .center {
+        border: 5px solid rgba(0, 0, 0, 0);
+        display: block;
+        width: 33%;
+        margin: 12px auto;
+    }
+
+    .right {
+
+        display: inline-block;
+        position: absolute;
+        top: 12px;
+        right: 3px;
+    }
+
+    .navbar li {
+        /* border: 2px solid black; */
+        display: inline-block;
+        font-size: 88%;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .navbar li:hover {
+        font-size: 17px;
+        transform: scale(2);
+        background-color: rgba(40, 103, 22, 0.192);
+    }
+
+    .navbar li a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 24px 12px;
+    }
+
+    .btn a {
+        font-family: 'Courgette', cursive;
+        background-color: black;
+        color: rgb(254, 255, 255);
+        padding: 4px 14px;
+        margin: 0px 7px;
+        border: 2px solid grey;
+        border-radius: 7px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .btn a:hover {
+        color: rgb(59, 49, 113);
+        font-size: 17px;
+    }
+
+    .container {
+        font-family: 'Courgette', cursive;
+        position: absolute;
+        top: 80px;
+        right: 30px;
+        text-align: center;
+        border: 2px solid rgb(0, 0, 0);
+        margin: 110px;
+        padding: 40px;
+        border-radius: 12px;
+        width: 350px;
+        cursor: pointer;
+        background-color: rgba(197, 189, 99, 0.142);
+        height: 280px;
+    }
+
+    .container h1:hover {
+        color: rgb(59, 49, 113);
+        font-size: 37px;
+    }
+
+    .form-group input {
+        font-family: 'Courgette', cursive;
+        font-size: 7px;
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 12px;
+        border: 2px solid rgb(6, 4, 6);
+        margin: 8px;
+        border-radius: 20px;
+    }
+
+    .container button {
+        border: palevioletred;
+        border-radius: 300px;
+        width: 100px;
+        padding: 10px;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .container button:hover {
+        color: rgb(100, 208, 17);
+        font-size: 17px;
+    }
